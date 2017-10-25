@@ -8,20 +8,90 @@
 
 /* Begin PBXBuildFile section */
 		D701426D1F6C434B00F15F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D701426C1F6C434B00F15F01 /* AppDelegate.swift */; };
-		D701426F1F6C434B00F15F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D701426E1F6C434B00F15F01 /* ViewController.swift */; };
+		D701426F1F6C434B00F15F01 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D701426E1F6C434B00F15F01 /* SignUpController.swift */; };
 		D70142721F6C434B00F15F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70142701F6C434B00F15F01 /* Main.storyboard */; };
 		D70142741F6C434B00F15F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70142731F6C434B00F15F01 /* Assets.xcassets */; };
 		D70142771F6C434B00F15F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70142751F6C434B00F15F01 /* LaunchScreen.storyboard */; };
+		D70A61D91F6C577600A94E00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D70A61D81F6C577600A94E00 /* GoogleService-Info.plist */; };
+		D70A61DC1F6C592900A94E00 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70A61DB1F6C592900A94E00 /* Extensions.swift */; };
+		D70A61E01F6D78F800A94E00 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70A61DF1F6D78F800A94E00 /* MainTabBarController.swift */; };
+		D70A61E21F6D7AF200A94E00 /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70A61E11F6D7AF200A94E00 /* UserProfileController.swift */; };
+		D70A61E51F6DAED400A94E00 /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70A61E41F6DAED400A94E00 /* UserProfileHeader.swift */; };
+		D715658E1F71BC0700A4E102 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715658D1F71BC0700A4E102 /* PhotoViewController.swift */; };
+		D71565901F71BD0400A4E102 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715658F1F71BD0400A4E102 /* VideoViewController.swift */; };
+		D71875731F852720003A2655 /* JobFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71875721F852720003A2655 /* JobFooter.swift */; };
+		D7204A111F7025F000F13893 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7204A101F7025F000F13893 /* LoginController.swift */; };
+		D7204A171F70A6EC00F13893 /* showCamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7204A161F70A6EC00F13893 /* showCamController.swift */; };
+		D7204A241F70B66500F13893 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7204A231F70B66500F13893 /* PreviewView.swift */; };
+		D7204A261F70B68000F13893 /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7204A251F70B68000F13893 /* SwiftyCamButton.swift */; };
+		D7204A281F70B69E00F13893 /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7204A271F70B69E00F13893 /* SwiftyCamViewController.swift */; };
+		D7204A2A1F70B6B600F13893 /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7204A291F70B6B600F13893 /* SwiftyCamViewControllerDelegate.swift */; };
+		D7204A2C1F70B76D00F13893 /* camController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7204A141F709C6A00F13893 /* camController.swift */; };
+		D7204A2E1F70BA5E00F13893 /* SwiftyRecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7204A2D1F70BA5E00F13893 /* SwiftyRecordButton.swift */; };
+		D7243DE71F92DB65008588ED /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7243DE61F92DB65008588ED /* ChatLogController.swift */; };
+		D7243DE91F92DC56008588ED /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7243DE81F92DC56008588ED /* ChatMessageCell.swift */; };
+		D7243DEB1F92DD55008588ED /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7243DEA1F92DD55008588ED /* ChatInputContainerView.swift */; };
+		D742DF4C1F7B289100FE8026 /* FirebaseExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D742DF4B1F7B289100FE8026 /* FirebaseExt.swift */; };
+		D74A2CAD1F8EEE7700CA544E /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74A2CAC1F8EEE7700CA544E /* MessagesController.swift */; };
+		D74A2CAF1F8EEF0500CA544E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74A2CAE1F8EEF0500CA544E /* UserCell.swift */; };
+		D74A2CB11F8EEF4A00CA544E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74A2CB01F8EEF4A00CA544E /* Message.swift */; };
+		D74A2CB31F8EF59000CA544E /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74A2CB21F8EF59000CA544E /* NewMessageController.swift */; };
+		D782271D1F79C32F000995B5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D782271E1F79C32F000995B5 /* Alamofire.framework */; };
+		D7852B121F9305020057F99A /* JobsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7852B111F9305020057F99A /* JobsController.swift */; };
+		D7852B161F94035B0057F99A /* JobPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7852B151F94035B0057F99A /* JobPostCell.swift */; };
+		D7D16C161F79A68D004986C1 /* HomePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D16C151F79A68D004986C1 /* HomePostCell.swift */; };
+		D7D4DEC01F79B71F00921C6A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4DEBF1F79B71F00921C6A /* Post.swift */; };
+		D7D4DEC21F79C01200921C6A /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4DEC11F79C01200921C6A /* CustomImageView.swift */; };
+		D7F627F91F784E0D0017E50F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F627F81F784E0D0017E50F /* HomeViewController.swift */; };
+		D7FEDAF61F7BF80F004E8225 /* JobController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FEDAF51F7BF80F004E8225 /* JobController.swift */; };
+		D7FEDAF81F7C1EBE004E8225 /* JobHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FEDAF71F7C1EBE004E8225 /* JobHeader.swift */; };
+		DDE5A9F6A944325992230A5F /* Pods_Gazorpian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92132D7731270D8898469439 /* Pods_Gazorpian.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		038892666BBC277D7BB3B6B5 /* Pods-Gazorpian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gazorpian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gazorpian/Pods-Gazorpian.debug.xcconfig"; sourceTree = "<group>"; };
+		1CB7C4E7AAECCE539CEE91F9 /* Pods-Gazorpian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gazorpian.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gazorpian/Pods-Gazorpian.release.xcconfig"; sourceTree = "<group>"; };
+		92132D7731270D8898469439 /* Pods_Gazorpian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gazorpian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70142691F6C434B00F15F01 /* Gazorpian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gazorpian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D701426C1F6C434B00F15F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D701426E1F6C434B00F15F01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D701426E1F6C434B00F15F01 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		D70142711F6C434B00F15F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D70142731F6C434B00F15F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D70142761F6C434B00F15F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D70142781F6C434B00F15F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70A61D81F6C577600A94E00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D70A61DB1F6C592900A94E00 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D70A61DF1F6D78F800A94E00 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		D70A61E11F6D7AF200A94E00 /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
+		D70A61E41F6DAED400A94E00 /* UserProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
+		D715658D1F71BC0700A4E102 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		D715658F1F71BD0400A4E102 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		D71875721F852720003A2655 /* JobFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobFooter.swift; sourceTree = "<group>"; };
+		D7204A101F7025F000F13893 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		D7204A141F709C6A00F13893 /* camController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = camController.swift; path = "/Users/christophernorman/Xcode Proj/Gazorpian/Gazorpian/Camera/camController.swift"; sourceTree = "<absolute>"; };
+		D7204A161F70A6EC00F13893 /* showCamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showCamController.swift; sourceTree = "<group>"; };
+		D7204A231F70B66500F13893 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = Gazorpian/Camera/SwiftCam/PreviewView.swift; sourceTree = SOURCE_ROOT; };
+		D7204A251F70B68000F13893 /* SwiftyCamButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyCamButton.swift; sourceTree = "<group>"; };
+		D7204A271F70B69E00F13893 /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyCamViewController.swift; sourceTree = "<group>"; };
+		D7204A291F70B6B600F13893 /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyCamViewControllerDelegate.swift; sourceTree = "<group>"; };
+		D7204A2D1F70BA5E00F13893 /* SwiftyRecordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyRecordButton.swift; sourceTree = "<group>"; };
+		D7243DE61F92DB65008588ED /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		D7243DE81F92DC56008588ED /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		D7243DEA1F92DD55008588ED /* ChatInputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
+		D742DF4B1F7B289100FE8026 /* FirebaseExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseExt.swift; sourceTree = "<group>"; };
+		D74A2CAC1F8EEE7700CA544E /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		D74A2CAE1F8EEF0500CA544E /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		D74A2CB01F8EEF4A00CA544E /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D74A2CB21F8EF59000CA544E /* NewMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		D782271E1F79C32F000995B5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7852B111F9305020057F99A /* JobsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsController.swift; sourceTree = "<group>"; };
+		D7852B151F94035B0057F99A /* JobPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPostCell.swift; sourceTree = "<group>"; };
+		D7D16C151F79A68D004986C1 /* HomePostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostCell.swift; sourceTree = "<group>"; };
+		D7D4DEBF1F79B71F00921C6A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D7D4DEC11F79C01200921C6A /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		D7F627F81F784E0D0017E50F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D7FEDAF51F7BF80F004E8225 /* JobController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobController.swift; sourceTree = "<group>"; };
+		D7FEDAF71F7C1EBE004E8225 /* JobHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +99,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D782271D1F79C32F000995B5 /* Alamofire.framework in Frameworks */,
+				DDE5A9F6A944325992230A5F /* Pods_Gazorpian.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FA3797CB5BF229A4FDB7F2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D782271E1F79C32F000995B5 /* Alamofire.framework */,
+				92132D7731270D8898469439 /* Pods_Gazorpian.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BB6A060F8433BE99A3F7A9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				038892666BBC277D7BB3B6B5 /* Pods-Gazorpian.debug.xcconfig */,
+				1CB7C4E7AAECCE539CEE91F9 /* Pods-Gazorpian.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D70142601F6C434B00F15F01 = {
 			isa = PBXGroup;
 			children = (
 				D701426B1F6C434B00F15F01 /* Gazorpian */,
 				D701426A1F6C434B00F15F01 /* Products */,
+				7BB6A060F8433BE99A3F7A9C /* Pods */,
+				6FA3797CB5BF229A4FDB7F2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +146,110 @@
 		D701426B1F6C434B00F15F01 /* Gazorpian */ = {
 			isa = PBXGroup;
 			children = (
+				D7852B101F9304E10057F99A /* Jobs */,
+				D74A2CAB1F8EEE4D00CA544E /* Messages */,
+				D7F627F71F784DF90017E50F /* Home */,
+				D7204A131F709C5300F13893 /* Camera */,
+				D7204A0F1F7025BF00F13893 /* Login */,
+				D70A61E31F6DAEA400A94E00 /* UserProfile */,
+				D70A61DA1F6C590E00A94E00 /* Utils */,
+				D70A61D81F6C577600A94E00 /* GoogleService-Info.plist */,
 				D701426C1F6C434B00F15F01 /* AppDelegate.swift */,
-				D701426E1F6C434B00F15F01 /* ViewController.swift */,
+				D70A61DF1F6D78F800A94E00 /* MainTabBarController.swift */,
 				D70142701F6C434B00F15F01 /* Main.storyboard */,
 				D70142731F6C434B00F15F01 /* Assets.xcassets */,
 				D70142751F6C434B00F15F01 /* LaunchScreen.storyboard */,
 				D70142781F6C434B00F15F01 /* Info.plist */,
 			);
 			path = Gazorpian;
+			sourceTree = "<group>";
+		};
+		D70A61DA1F6C590E00A94E00 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D70A61DB1F6C592900A94E00 /* Extensions.swift */,
+				D7D4DEBF1F79B71F00921C6A /* Post.swift */,
+				D7D4DEC11F79C01200921C6A /* CustomImageView.swift */,
+				D742DF4B1F7B289100FE8026 /* FirebaseExt.swift */,
+				D74A2CB01F8EEF4A00CA544E /* Message.swift */,
+				D7243DEA1F92DD55008588ED /* ChatInputContainerView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D70A61E31F6DAEA400A94E00 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				D70A61E11F6D7AF200A94E00 /* UserProfileController.swift */,
+				D70A61E41F6DAED400A94E00 /* UserProfileHeader.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		D7204A0F1F7025BF00F13893 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D7204A101F7025F000F13893 /* LoginController.swift */,
+				D701426E1F6C434B00F15F01 /* SignUpController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D7204A131F709C5300F13893 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				D7204A2B1F70B75500F13893 /* SwiftCam */,
+				D7204A141F709C6A00F13893 /* camController.swift */,
+				D715658D1F71BC0700A4E102 /* PhotoViewController.swift */,
+				D7204A161F70A6EC00F13893 /* showCamController.swift */,
+				D715658F1F71BD0400A4E102 /* VideoViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		D7204A2B1F70B75500F13893 /* SwiftCam */ = {
+			isa = PBXGroup;
+			children = (
+				D7204A231F70B66500F13893 /* PreviewView.swift */,
+				D7204A251F70B68000F13893 /* SwiftyCamButton.swift */,
+				D7204A271F70B69E00F13893 /* SwiftyCamViewController.swift */,
+				D7204A291F70B6B600F13893 /* SwiftyCamViewControllerDelegate.swift */,
+				D7204A2D1F70BA5E00F13893 /* SwiftyRecordButton.swift */,
+			);
+			path = SwiftCam;
+			sourceTree = "<group>";
+		};
+		D74A2CAB1F8EEE4D00CA544E /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				D74A2CAC1F8EEE7700CA544E /* MessagesController.swift */,
+				D74A2CAE1F8EEF0500CA544E /* UserCell.swift */,
+				D74A2CB21F8EF59000CA544E /* NewMessageController.swift */,
+				D7243DE61F92DB65008588ED /* ChatLogController.swift */,
+				D7243DE81F92DC56008588ED /* ChatMessageCell.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		D7852B101F9304E10057F99A /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				D7852B111F9305020057F99A /* JobsController.swift */,
+				D7852B151F94035B0057F99A /* JobPostCell.swift */,
+			);
+			path = Jobs;
+			sourceTree = "<group>";
+		};
+		D7F627F71F784DF90017E50F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D7F627F81F784E0D0017E50F /* HomeViewController.swift */,
+				D7D16C151F79A68D004986C1 /* HomePostCell.swift */,
+				D7FEDAF51F7BF80F004E8225 /* JobController.swift */,
+				D7FEDAF71F7C1EBE004E8225 /* JobHeader.swift */,
+				D71875721F852720003A2655 /* JobFooter.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D701427B1F6C434B00F15F01 /* Build configuration list for PBXNativeTarget "Gazorpian" */;
 			buildPhases = (
+				789BCCF8178E7284246ED0A2 /* [CP] Check Pods Manifest.lock */,
 				D70142651F6C434B00F15F01 /* Sources */,
 				D70142661F6C434B00F15F01 /* Frameworks */,
 				D70142671F6C434B00F15F01 /* Resources */,
+				04A2B1007582E00C0E53D587 /* [CP] Embed Pods Frameworks */,
+				1838AFB63B83A605DA53AEB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D70142771F6C434B00F15F01 /* LaunchScreen.storyboard in Resources */,
+				D70A61D91F6C577600A94E00 /* GoogleService-Info.plist in Resources */,
 				D70142741F6C434B00F15F01 /* Assets.xcassets in Resources */,
 				D70142721F6C434B00F15F01 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +323,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04A2B1007582E00C0E53D587 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gazorpian/Pods-Gazorpian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1838AFB63B83A605DA53AEB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gazorpian/Pods-Gazorpian-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		789BCCF8178E7284246ED0A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D70142651F6C434B00F15F01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D701426F1F6C434B00F15F01 /* ViewController.swift in Sources */,
+				D7204A241F70B66500F13893 /* PreviewView.swift in Sources */,
+				D7852B121F9305020057F99A /* JobsController.swift in Sources */,
+				D7204A2A1F70B6B600F13893 /* SwiftyCamViewControllerDelegate.swift in Sources */,
+				D7204A171F70A6EC00F13893 /* showCamController.swift in Sources */,
+				D701426F1F6C434B00F15F01 /* SignUpController.swift in Sources */,
+				D74A2CB31F8EF59000CA544E /* NewMessageController.swift in Sources */,
+				D7204A2E1F70BA5E00F13893 /* SwiftyRecordButton.swift in Sources */,
+				D7F627F91F784E0D0017E50F /* HomeViewController.swift in Sources */,
+				D7FEDAF81F7C1EBE004E8225 /* JobHeader.swift in Sources */,
+				D70A61DC1F6C592900A94E00 /* Extensions.swift in Sources */,
+				D70A61E01F6D78F800A94E00 /* MainTabBarController.swift in Sources */,
+				D7204A281F70B69E00F13893 /* SwiftyCamViewController.swift in Sources */,
+				D74A2CAD1F8EEE7700CA544E /* MessagesController.swift in Sources */,
+				D7D4DEC21F79C01200921C6A /* CustomImageView.swift in Sources */,
+				D70A61E51F6DAED400A94E00 /* UserProfileHeader.swift in Sources */,
+				D70A61E21F6D7AF200A94E00 /* UserProfileController.swift in Sources */,
+				D74A2CAF1F8EEF0500CA544E /* UserCell.swift in Sources */,
+				D7243DE71F92DB65008588ED /* ChatLogController.swift in Sources */,
+				D71565901F71BD0400A4E102 /* VideoViewController.swift in Sources */,
 				D701426D1F6C434B00F15F01 /* AppDelegate.swift in Sources */,
+				D7204A261F70B68000F13893 /* SwiftyCamButton.swift in Sources */,
+				D7243DEB1F92DD55008588ED /* ChatInputContainerView.swift in Sources */,
+				D7FEDAF61F7BF80F004E8225 /* JobController.swift in Sources */,
+				D7243DE91F92DC56008588ED /* ChatMessageCell.swift in Sources */,
+				D7204A2C1F70B76D00F13893 /* camController.swift in Sources */,
+				D7D16C161F79A68D004986C1 /* HomePostCell.swift in Sources */,
+				D7852B161F94035B0057F99A /* JobPostCell.swift in Sources */,
+				D74A2CB11F8EEF4A00CA544E /* Message.swift in Sources */,
+				D7204A111F7025F000F13893 /* LoginController.swift in Sources */,
+				D71875731F852720003A2655 /* JobFooter.swift in Sources */,
+				D715658E1F71BC0700A4E102 /* PhotoViewController.swift in Sources */,
+				D742DF4C1F7B289100FE8026 /* FirebaseExt.swift in Sources */,
+				D7D4DEC01F79B71F00921C6A /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +543,7 @@
 		};
 		D701427C1F6C434B00F15F01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038892666BBC277D7BB3B6B5 /* Pods-Gazorpian.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +559,7 @@
 		};
 		D701427D1F6C434B00F15F01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB7C4E7AAECCE539CEE91F9 /* Pods-Gazorpian.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
