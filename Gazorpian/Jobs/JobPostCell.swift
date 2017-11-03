@@ -11,7 +11,7 @@ import UIKit
 class JobPostCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .green
+        backgroundColor = .white
         contentView.addSubview(jobView)
         jobView.addSubview(salLab)
         jobView.addSubview(Benefits)
@@ -40,6 +40,7 @@ class JobPostCell: UICollectionViewCell {
     let coImage: UIImageView = {
         let vw = UIImageView()
         vw.image = #imageLiteral(resourceName: "google-new-logo")
+        vw.layer.cornerRadius = 2
         return vw
     }()
     
