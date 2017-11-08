@@ -31,20 +31,24 @@ class JobsController: UICollectionViewController, UICollectionViewDelegateFlowLa
 //        return CGSize(width: view.frame.width, height: 300)
 //    }
     
-    let segControl: UISegmentedControl = {
-        let myArray: NSArray = ["Applied","Liked",]
-        let segmControl = UISegmentedControl(items: myArray as [AnyObject])
-        segmControl.backgroundColor = .white
-        segmControl.tintColor = UIColor.rgb(red: 103, green: 174, blue: 202)
-        return segmControl
+    let jobTypeSegmentedControl: UISegmentedControl = {
+        let types = ["Applied", "Liked"]
+        
+        let sc = UISegmentedControl(items: types)
+        sc.isOpaque = true
+        sc.selectedSegmentIndex = 0
+        sc.translatesAutoresizingMaskIntoConstraints = false
+        sc.tintColor = UIColor.rgb(red: 103, green: 174, blue: 202)
+        sc.backgroundColor = .white
+        return sc
     }()
     
     fileprivate func setupNavItems() {
-        navigationController?.navigationBar.addSubview(segControl)
+        navigationController?.navigationBar.addSubview(jobTypeSegmentedControl)
         navigationController?.navigationBar.isTranslucent = false
         navigationController?.navigationBar.prefersLargeTitles = true
         let navBar = navigationController?.navigationBar
-        segControl.anchor(top: navBar?.bottomAnchor, left: navBar?.leftAnchor, bottom: nil, right: navBar?.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 0)
+        jobTypeSegmentedControl.anchor(top: navBar?.bottomAnchor, left: navBar?.leftAnchor, bottom: nil, right: navBar?.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 0)
         navigationItem.title = "Jobs"
         navigationController?.navigationBar.barTintColor = .white
     }

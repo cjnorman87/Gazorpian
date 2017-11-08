@@ -18,7 +18,7 @@ class JobHeader: UICollectionViewCell {
     let photoImageView: CustomImageView = {
         let iv = CustomImageView()
         iv.backgroundColor = .red
-        iv.contentMode = .scaleAspectFill
+        iv.contentMode = .scaleAspectFit
         iv.clipsToBounds = true
         return iv
     }()
@@ -84,7 +84,7 @@ class JobHeader: UICollectionViewCell {
         addSubview(locationLabel)
         photoImageView.anchor(top: nil, left: leftAnchor, bottom: nil, right: nil, paddingTop: 0, paddingLeft: 120, paddingBottom: 0, paddingRight: 0, width: 100, height: 100)
         photoImageView.layer.cornerRadius = 100 / 2
-        photoImageView.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+        photoImageView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         shareBtn.anchor(top: topAnchor, left: nil, bottom: nil, right: rightAnchor, paddingTop: 8, paddingLeft: 0, paddingBottom: 0, paddingRight: 4, width: 30, height: 30)
         likeBtn.anchor(top: topAnchor, left: nil, bottom: nil, right: shareBtn.leftAnchor, paddingTop: 8, paddingLeft: 0, paddingBottom: 0, paddingRight: 2, width: 30, height: 30)
 //        backBtn.anchor(top: topAnchor, left: leftAnchor, bottom: nil, right: nil, paddingTop: 8, paddingLeft: 8, paddingBottom: 0, paddingRight: 0, width: 25, height: 25)

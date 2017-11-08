@@ -60,5 +60,6 @@ class JobController: UICollectionViewController, UICollectionViewDelegateFlowLay
         navigationController?.navigationBar.backItem?.backBarButtonItem?.setBackgroundImage(#imageLiteral(resourceName: "Back"), for: .normal, barMetrics: .default)
         collectionView?.register(JobHeader.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: headerID)
         collectionView?.register(JobFooter.self, forSupplementaryViewOfKind: UICollectionElementKindSectionFooter, withReuseIdentifier: footerID)
+        collectionView?.isScrollEnabled = false
     }
 }

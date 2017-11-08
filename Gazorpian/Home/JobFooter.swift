@@ -16,12 +16,12 @@ class JobFooter: UICollectionViewCell {
     
     let containerView: UIView = {
         let cv = UIView()
-        cv.backgroundColor = .blue
+        cv.backgroundColor = .gray
         return cv
     }()
     let jobDescripView: UIView = {
         let jobView = UIView()
-        jobView.backgroundColor = .yellow
+        jobView.backgroundColor = .white
         return jobView
     }()
     let salLabel: UILabel = {
@@ -82,9 +82,9 @@ class JobFooter: UICollectionViewCell {
         setupInputFields()
         jobLabel.anchor(top: jobDescripView.topAnchor, left: jobDescripView.leftAnchor, bottom: nil, right: nil, paddingTop: 8, paddingLeft: 8, paddingBottom: 0, paddingRight: 0, width: 150, height: 40)
         textView.anchor(top: jobLabel.bottomAnchor, left: jobDescripView.leftAnchor, bottom: jobDescripView.bottomAnchor, right: jobDescripView.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 0)
-        appBtn.anchor(top: nil, left: jobDescripView.leftAnchor, bottom: jobDescripView.bottomAnchor, right: jobDescripView.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 7, paddingRight: 0, width: 0, height: 50)
-        containerView.anchor(top: topAnchor, left: leftAnchor, bottom: nil, right: rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 150)
-        jobDescripView.anchor(top: containerView.bottomAnchor, left: leftAnchor, bottom: nil, right: rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 180)
+        appBtn.anchor(top: nil, left: leftAnchor, bottom: safeAreaLayoutGuide.bottomAnchor, right: rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 7, paddingRight: 0, width: 0, height: 52)
+        containerView.anchor(top: topAnchor, left: leftAnchor, bottom: nil, right: rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 120)
+        jobDescripView.anchor(top: nil, left: leftAnchor, bottom: appBtn.topAnchor, right: rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 230)
     }
     
     fileprivate func setupLabelFields() {

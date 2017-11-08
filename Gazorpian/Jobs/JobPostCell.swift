@@ -40,7 +40,8 @@ class JobPostCell: UICollectionViewCell {
     let coImage: UIImageView = {
         let vw = UIImageView()
         vw.image = #imageLiteral(resourceName: "google-new-logo")
-        vw.layer.cornerRadius = 2
+        vw.layer.cornerRadius = vw.frame.width / 2
+        vw.clipsToBounds = true
         return vw
     }()
     
